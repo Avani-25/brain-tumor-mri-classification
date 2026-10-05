@@ -92,12 +92,6 @@ pip install -r requirements.txt
 streamlit run app/app.py
 ```
 
-## ⚠️ Limitations
-
-1. The test set is small (246 images), so differences of 1-2 points are not significant.
-2. Trained and tested on a single public dataset, with no external validation.
-3. Not clinically validated.
-
 ## ***⚠️ Limitations***
 
 1. The test set is small (246 images), so differences of 1-2 points are not significant.
