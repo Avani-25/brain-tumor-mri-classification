@@ -51,8 +51,6 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
 
    # 🚀 Quick Start
 
-```bash
-```
    # 1. Clone the repo (needs Git LFS for the model files)
    
    ```bash
@@ -69,8 +67,13 @@ python -m venv venv
 venv\Scripts\activate          # Windows
 # source venv/bin/activate     # Mac / Linux
 
+
 # 3. Install dependencies
+```bash
+```
 pip install -r requirements.txt
 
 # 4. Run the app
+```bash
+```
 streamlit run app/app.py
