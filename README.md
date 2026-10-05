@@ -1,5 +1,4 @@
 # **🧠 Brain Tumor MRI Image Classification**
-
 Classify brain MRI scans into 4 categories with deep learning, and try it live in a Streamlit app.
 
 ---
@@ -69,6 +68,7 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
       ```bash
      git clone https://github.com/YOUR_USERNAME/brain-tumor-mri-classification.git
       ```
+     
      cd brain-tumor-mri-classification
      git lfs pull
 
@@ -77,6 +77,7 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
      ```bash
          python -m venv venv
         ```
+        
       venv\Scripts\activate          # Windows
       #source venv/bin/activate     # Mac / Linux
 
