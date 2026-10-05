@@ -68,19 +68,23 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
       ```bash
      git clone https://github.com/YOUR_USERNAME/brain-tumor-mri-classification.git
       ```
-     
+     ```bash
      cd brain-tumor-mri-classification
+     ```
+     ```bash
      git lfs pull
-
+     ```
 
   ### 2. Create and activate a virtual environment
      ```bash
          python -m venv venv
         ```
-        
+       ```bash 
       venv\Scripts\activate          # Windows
+      ```
+      ```bash
       #source venv/bin/activate     # Mac / Linux
-
+      ```
 
    ### 3. Install dependencies
 ```bash
