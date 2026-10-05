@@ -18,14 +18,14 @@ The best model (ResNet50) is deployed in a Streamlit web app that returns the pr
 
 Evaluated on the held-out test set (246 images):
 
-# Model                        	Accuracy	           Macro             F1	Parameters	                      CPU time / image
+ Model                        	Accuracy	           Macro             F1	Parameters	                      CPU time / image
 
 1.Custom CNN	            |         66.3%	            0.659	                1.0 M                              	23 ms
 2.MobileNetV2	            |         83.3%	            0.831	                2.6 M	                              37 ms
 3.EfficientNetB0	        |          —	                  —	                  4.4 M	                                —
 4.ResNet50 ⭐            |        91.1%	              0.906	                24.1 M	                            69 ms
 
- Highlights
+ **Highlights**
 
 1.Transfer learning beat the custom CNN by 17 to 25 accuracy points.
 2.ResNet50 is the most accurate and reliable model, and it was chosen for deployment.
@@ -52,28 +52,22 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
    # 🚀 Quick Start
 
    # 1. Clone the repo (needs Git LFS for the model files)
-   
-   ```bash
-   ```
+      
 git clone https://github.com/YOUR_USERNAME/brain-tumor-mri-classification.git
 cd brain-tumor-mri-classification
 git lfs pull
 
 
  # 2. Create and activate a virtual environment
-``bash
-```
+
 python -m venv venv
 venv\Scripts\activate          # Windows
 # source venv/bin/activate     # Mac / Linux
 
 
 # 3. Install dependencies
-```bash
-```
+
 pip install -r requirements.txt
 
 # 4. Run the app
-```bash
-```
 streamlit run app/app.py
