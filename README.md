@@ -65,10 +65,13 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
    ## ***🚀 Quick Start***
 
    ### 1. Clone the repo (needs Git LFS for the model files)
+   
       ```bash
+      
      git clone https://github.com/YOUR_USERNAME/brain-tumor-mri-classification.git
      cd brain-tumor-mri-classification
      git lfs pull
+     
      ```
 
   ### 2. Create and activate a virtual environment
