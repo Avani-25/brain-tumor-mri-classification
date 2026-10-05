@@ -3,7 +3,7 @@
 Classify brain MRI scans into 4 categories with deep learning, and try it live in a Streamlit app.
 
 ---
-## 📌 Overview
+## ***📌 Overview***
 
 This project builds a custom CNN from scratch and compares it with transfer-learning models (MobileNetV2, EfficientNetB0, ResNet50) to classify brain MRI images into:
 
@@ -19,7 +19,7 @@ This project builds a custom CNN from scratch and compares it with transfer-lear
 The best model (ResNet50) is deployed in a Streamlit web app that returns the predicted tumor type with confidence scores.
 
 ---
-## 🏆 Results
+## ***🏆 Results***
 
 Evaluated on the held-out test set (246 images):
 
@@ -30,7 +30,7 @@ Evaluated on the held-out test set (246 images):
 3.EfficientNetB0	        |          —	                  —	                  4.4 M	                                —
 4.ResNet50 ⭐            |        91.1%	              0.906	                24.1 M	                            69 ms
 
- **Highlights**
+ ***Highlights***
 
 1.Transfer learning beat the custom CNN by 17 to 25 accuracy points.
 
@@ -39,7 +39,7 @@ Evaluated on the held-out test set (246 images):
 3.Confusion matrices, training curves and the full comparison table are in reports/.
 
 ---
-## 📂 Dataset
+## ***📂 Dataset***
 
 Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
 
@@ -48,7 +48,7 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
 2. 4 classes: glioma, meningioma, no tumor, pituitary
 
 ---
-  ## 🔬 Method
+  ## ***🔬 Method***
   
 1. Explore the data: class balance, resolution, samples
 2. Preprocess: resize to 224×224, scale pixels to 0-1
@@ -60,7 +60,7 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
 8. Compare models and deploy the best one with Streamlit
 
 ---
-   ## 🚀 Quick Start
+   ## ***🚀 Quick Start***
 
    ### 1. Clone the repo (needs Git LFS for the model files)
       ```bash
@@ -83,12 +83,12 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
 pip install -r requirements.txt
 ```
 
-### 4. Run the app
-```bash
-streamlit run app/app.py
+  ### 4. Run the app
+   ```bash
+    streamlit run app/app.py
 ```
 
-## ⚠️ Limitations
+## ***⚠️ Limitations***
 
 1. The test set is small (246 images), so differences of 1-2 points are not significant.
 2. Trained and tested on a single public dataset, with no external validation.
