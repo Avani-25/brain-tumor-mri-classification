@@ -25,7 +25,7 @@ Evaluated on the held-out test set (246 images):
 3.EfficientNetB0	        |          —	                  —	                  4.4 M	                                —
 4.ResNet50 ⭐            |        91.1%	              0.906	                24.1 M	                            69 ms
 
-# Highlights
+ Highlights
 
 1.Transfer learning beat the custom CNN by 17 to 25 accuracy points.
 2.ResNet50 is the most accurate and reliable model, and it was chosen for deployment.
