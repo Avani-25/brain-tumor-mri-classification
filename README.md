@@ -62,6 +62,16 @@ Labeled MRI Brain Tumor Dataset from Roboflow Universe (License: CC BY 4.0).
 8. Compare models and deploy the best one with Streamlit
 
 ---
+  ## ***📑 Project Report***
+
+  (https://drive.google.com/file/d/1TkRXwf2ObF4_iq09h6bVaOtjnu2aTh19/view?usp=drive_link)
+
+---
+## ***📽 Project Demo***
+
+(https://drive.google.com/file/d/1u-yik697VsKM8IMIf_x0GHz9hNjgKg50/view?usp=drive_link)
+
+---
    ## ***🚀 Quick Start***
 
 ### 1. Clone the repo (needs Git LFS for the model files)
