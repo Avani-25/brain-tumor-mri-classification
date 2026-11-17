@@ -15,7 +15,7 @@ from PIL import Image
 # ------------------------------------------------------------------ settings
 HERE = Path(__file__).resolve().parent
 MODEL_FILENAME = "best_model.h5"      # the model file you upload next to this app.py
-MODEL_URL = ""                        # optional: direct download link (e.g. a GitHub Release file), used only
+MODEL_URL = "https://github.com/Avani-25/brain-tumor-mri-classification/releases/tag/v1.0"                        # optional: direct download link (e.g. a GitHub Release file), used only
                                       # if the model file is not found next to this app.py
 MODEL_NAME = "ResNet50"
 MODEL_URL = "https://github.com/Avani-25/brain-tumor-mri-classification/releases/tag/v1.0"
