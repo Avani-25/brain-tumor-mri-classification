@@ -18,6 +18,7 @@ MODEL_FILENAME = "best_model.h5"      # the model file you upload next to this a
 MODEL_URL = ""                        # optional: direct download link (e.g. a GitHub Release file), used only
                                       # if the model file is not found next to this app.py
 MODEL_NAME = "ResNet50"
+MODEL_URL = ""
 CLASS_NAMES = ["glioma", "meningioma", "no_tumor", "pituitary"]
 IMG_SIZE = (224, 224)
 LOW_CONFIDENCE = 0.60                 # below this we warn the user
